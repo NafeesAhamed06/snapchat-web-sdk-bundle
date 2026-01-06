@@ -37,7 +37,7 @@ This project solves that by:
 
 ## 🚀 Usage
 
-Install Latest Version Package From (Release)[https://github.com/NafeesAhamed06/snapchat-web-sdk-bundle/releases]
+Install Latest Version Package From [Release](https://github.com/NafeesAhamed06/snapchat-web-sdk-bundle/releases)
 
 **OR**
 
