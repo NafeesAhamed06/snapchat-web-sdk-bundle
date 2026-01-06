@@ -39,7 +39,7 @@ This project solves that by:
 ### 1️⃣ Include the bundle
 
 ```html
-<script src="snapchat-sdk.bundle.js"></script>
+<script src="snap-camera.iife.js"></script>
 ```
 
 ### 2️⃣ Using In Javascript
@@ -57,3 +57,12 @@ initSnapCamera({
       console.log("Snap Camera initialized successfully", snapCamera);
     });
 ```
+(Refer to Snapchat’s official documentation for API usage.)
+
+### ⚠️ Disclaimer
+
+This is an unofficial project and is not affiliated with, endorsed by, or maintained by Snapchat.
+
+All trademarks, logos, and brand names belong to their respective owners.
+
+This repository does not modify Snapchat’s SDK source code — it only bundles it for easier browser usage.
