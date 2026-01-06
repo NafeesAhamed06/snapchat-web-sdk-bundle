@@ -34,8 +34,7 @@ This project solves that by:
 
 ---
 
-
-## 🚀 Usage
+## ⚙️ Installing
 
 Install Latest Version Package From [Release](https://github.com/NafeesAhamed06/snapchat-web-sdk-bundle/releases)
 
@@ -47,6 +46,8 @@ npm i
 
 npx vite build
 ```
+
+## 🚀 Usage
 
 ### 1️⃣ Include the bundle
 
