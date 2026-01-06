@@ -42,7 +42,7 @@ This project solves that by:
 <script src="snapchat-sdk.bundle.js"></script>
 ```
 
-### User In Javascript
+### 2️⃣ Using In Javascript
 
 ```javascript
 let snapCamera;
