@@ -34,7 +34,19 @@ This project solves that by:
 
 ---
 
+
 ## 🚀 Usage
+
+Install Latest Version Package From (Release)[https://github.com/NafeesAhamed06/snapchat-web-sdk-bundle/releases]
+
+**OR**
+
+You Can Bundle Your Own By Cloning This Repo And Running:
+```bash
+npm i
+
+npx vite build
+```
 
 ### 1️⃣ Include the bundle
 
