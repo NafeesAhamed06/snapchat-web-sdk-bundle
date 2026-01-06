@@ -57,7 +57,24 @@ initSnapCamera({
       console.log("Snap Camera initialized successfully", snapCamera);
     });
 ```
+
+Make Sure To Pass Your Canvas Element id in VideoElement
+
 (Refer to Snapchat’s official documentation for API usage.)
+
+### 3️⃣ Applying Filter
+
+```javascript
+const lens = await snapCamera.cameraKit.lensRepository.loadLens(
+        FILTER_ID,
+        FILTER_GROUP_ID
+      );
+      await snapCamera.session.applyLens(lens);
+```
+### 4️⃣ Removing Filter
+```javascript
+snapCamera.session.removeLens();
+```
 
 ### ⚠️ Disclaimer
 
