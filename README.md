@@ -98,5 +98,9 @@ All trademarks, logos, and brand names belong to their respective owners.
 
 This repository does not modify Snapchat’s SDK source code — it only bundles it for easier browser usage.
 
-This project is licensed under MIT for the wrapper and build code only.
-The Snapchat SDK remains the property of Snap Inc. and is subject to their official license terms.
+## License
+
+The wrapper and build code in this repository is licensed under the MIT License.
+
+The Snapchat SDK itself is proprietary software owned by Snap Inc. and is subject
+to their official licensing terms.
