@@ -44,7 +44,7 @@ This project solves that by:
 
 ### User In Javascript
 
-```html
+```javascript
 let snapCamera;
 
 initSnapCamera({
