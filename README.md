@@ -40,3 +40,20 @@ This project solves that by:
 
 ```html
 <script src="snapchat-sdk.bundle.js"></script>
+```
+
+### User In Javascript
+
+```html
+let snapCamera;
+
+initSnapCamera({
+      apiToken: "YOUR_API_KEY_TOKEN",
+      lensId: "YOUR_LENS_ID",
+      lensGroupId: "YOUR_LENS_GROUP_ID",
+      videoElement: document.getElementById("canvas"),
+    }).then((sc) => {
+      snapCamera = sc;
+      console.log("Snap Camera initialized successfully", snapCamera);
+    });
+```
