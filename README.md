@@ -48,14 +48,14 @@ This project solves that by:
 let snapCamera;
 
 initSnapCamera({
-      apiToken: "YOUR_API_KEY_TOKEN",
-      lensId: "YOUR_LENS_ID",
-      lensGroupId: "YOUR_LENS_GROUP_ID",
-      videoElement: document.getElementById("canvas"),
-    }).then((sc) => {
-      snapCamera = sc;
-      console.log("Snap Camera initialized successfully", snapCamera);
-    });
+  apiToken: "YOUR_API_KEY_TOKEN",
+  lensId: "YOUR_LENS_ID",
+  lensGroupId: "YOUR_LENS_GROUP_ID",
+  videoElement: document.getElementById("canvas"),
+}).then((sc) => {
+  snapCamera = sc;
+  console.log("Snap Camera initialized successfully", snapCamera);
+});
 ```
 
 Make Sure To Pass Your Canvas Element id in VideoElement
@@ -68,8 +68,9 @@ Make Sure To Pass Your Canvas Element id in VideoElement
 const lens = await snapCamera.cameraKit.lensRepository.loadLens(
         FILTER_ID,
         FILTER_GROUP_ID
-      );
-      await snapCamera.session.applyLens(lens);
+    );
+
+await snapCamera.session.applyLens(lens);
 ```
 ### 4️⃣ Removing Filter
 ```javascript
